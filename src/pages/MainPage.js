@@ -3,7 +3,9 @@ import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 import Logo from '../assets/Logo.svg'
 import Notion from '../assets/Notion.svg'
-import TestSel from '../assets/TestSel.svg'
+import Jiyeong from '../assets/Jiyeong.svg'
+import Eujin from '../assets/Eujin.svg'
+import Soryeong from '../assets/Soryeong.svg'
 
 const MainPage = () => {
   const history = useHistory();
@@ -30,17 +32,17 @@ const MainPage = () => {
         <img 
           className="main__member" 
           onClick={()=>{history.push('/euijin')}}
-          src = {TestSel} 
+          src = {Eujin} 
           alt="" />
         <img 
           className="main__member" 
           onClick={()=>{history.push('/jiyeong')}}
-          src = {TestSel}  
+          src = {Jiyeong}  
           alt="" />
         <img 
           className="main__member" 
           onClick={()=>{history.push('/soryeong')}}
-          src = {TestSel} 
+          src = {Soryeong} 
           alt="" />
       </div>
 
