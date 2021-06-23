@@ -4,3 +4,8 @@ export { default as HeaderSoryeong } from './HeaderSoryeong.svg';
 export { default as HeaderNotfound } from './HeaderNotfound.svg';
 export { default as FooterToMain } from './FooterToMain.svg';
 export { default as FooterToNotion } from './FooterToNotion.svg';
+export { default as ProfileSoryeong } from './soryeong/Profile.svg';
+export { default as Image01 } from './soryeong/Image01.svg';
+export { default as Image02 } from './soryeong/Image02.svg';
+export { default as Image03 } from './soryeong/Image03.svg';
+export { default as Image04 } from './soryeong/Image04.svg';
