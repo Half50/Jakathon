@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 반오십 스터디원 포트폴리오
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src="https://user-images.githubusercontent.com/24906022/123024697-6db5d680-d414-11eb-8733-157a63bbf3b9.png" width=25%>
+</p>
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## `반오십 스터디`
 
-### `yarn start`
+- SOPT 28th Web Part
+- JavaScript Study
+- [Main Site](https://github.com/facebook/create-react-app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## `스터디원`
 
-### `yarn test`
+| 이름 |                                                                                                                                                                                                                                    김의진                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                 김소령                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                    현지영                                                                                                                                                                                                                                     |
+| :--: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 사진 | <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6342bdba-6db4-4085-a907-2798686c0485/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210522T161653Z&X-Amz-Expires=86400&X-Amz-Signature=a5698614561f167515e1277049cac2f4ebdc64a184065d8dc92bc924e4108a1d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width=200> | <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8e7f2a4e-248b-43fc-b021-9473cfc2d6da/shareImage_1617585084.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210522T161219Z&X-Amz-Expires=86400&X-Amz-Signature=62d0ee51b4ba37147668deebab63b5e033929820c8d49412a0195fcf2c9165f6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22shareImage_1617585084.jpg%22" width=200> | <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/35b6b531-b97c-4bd3-921f-ef243ad10931/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210522T162245Z&X-Amz-Expires=86400&X-Amz-Signature=66db4d4b7361738cba1f873992ced4d62b4183b226e9722932c90909f848adab&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width=200> |
+| 주소 |                                                                                                                                                                                                                      [포트폴리오](http://localhost:3000)                                                                                                                                                                                                                      |                                                                                                                                                                                                                                &nbsp;[포트폴리오](http://localhost:3000)                                                                                                                                                                                                                                |                                                                                                                                                                                                                   &nbsp;[포트폴리오](http://localhost:3000)                                                                                                                                                                                                                   |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `yarn build`
+### `기술스택`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=black">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br/>
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `프로젝트 구조`
 
-### `yarn eject`
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+⎡ 📁 Public
+⎜  ⎿ index.html
+⎣ 📁 src
+   ⎿ 📁 assets
+   ⎹  ⎿ index.js
+   ⎿ 📁 components
+   ⎹  ⎿ 📁 common
+   ⎹  ⎮  ⎿ Header.js
+   ⎹  ⎮  ⎿ Footer.js
+   ⎹  ⎿ index.js
+   ⎿ 📁 pages
+   ⎹  ⎿ MainPage.js
+   ⎹  ⎿ EuijinPage.js
+   ⎹  ⎿ SoryeongPage.js
+   ⎹  ⎿ JiyeongPage.js
+   ⎹  ⎿ index.js
+   ⎿ 📁 styles
+   ⎹  ⎿ GlobalStyle.js
+   ⎹  ⎿ theme.js
+   ⎿ APP.js
+   ⎿ index.js
+```
