@@ -8,7 +8,7 @@
 
 - SOPT 28th Web Part
 - JavaScript Study
-- [Main Site](https://github.com/facebook/create-react-app)
+- [Main Site](https://webmonster.netlify.app/)
 
 <br/>
 
