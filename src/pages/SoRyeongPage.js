@@ -13,4 +13,8 @@ const SoRyeongPage = () => {
 
 export default SoRyeongPage;
 
-const SoRyeongWrapper = styled.section``;
+const SoRyeongWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;

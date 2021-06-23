@@ -1,19 +1,45 @@
 import React from 'react';
+import { useRouteMatch, useHistory } from 'react-router';
 import styled from 'styled-components';
 import {
-  HeaderEuijin,
   HeaderSoryeong,
-  HeaderJiyoung,
-} from '../../assets/index';
+  HeaderJiyeong,
+  HeaderEuijin,
+  HeaderNotfound,
+} from '../../assets';
 
 const Header = () => {
+  const history = useHistory();
+  const names = ['/euijin', '/jiyeong', '/soryeong'];
+
+  const path = useRouteMatch().path;
+  // console.log(match);
   return (
     <HeaderWrapper>
-      <img src={HeaderEuijin} alt="" />
+      <img
+        src={
+          path === names[0]
+            ? HeaderEuijin
+            : path === names[1]
+            ? HeaderJiyeong
+            : path === names[2]
+            ? HeaderSoryeong
+            : HeaderNotfound
+        }
+        alt=""
+        onClick={() => history.push('/')}
+      />
     </HeaderWrapper>
   );
 };
 
 export default Header;
 
-const HeaderWrapper = styled.header``;
+const HeaderWrapper = styled.header`
+  img {
+    width: 120rem;
+    height: 50rem;
+    margin-top: 15rem;
+    cursor: pointer;
+  }
+`;
