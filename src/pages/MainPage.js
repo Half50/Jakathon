@@ -1,16 +1,12 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 import Logo from '../assets/Logo.svg'
 import Notion from '../assets/Notion.svg'
 import TestSel from '../assets/TestSel.svg'
-import Test from '../assets/Test.svg'
 
 const MainPage = () => {
   const history = useHistory();
-  const eButton = useRef();
-  const jButton = useRef();
-  const sButton = useRef();
 
   return (
     <MainWrapper>
@@ -34,38 +30,17 @@ const MainPage = () => {
         <img 
           className="main__member" 
           onClick={()=>{history.push('/euijin')}}
-          src = {Test} 
-          onMouseEnter={() => {
-            eButton.current.src = TestSel;
-          }}
-          onMouseLeave={() => {
-            eButton.current.src = Test;
-          }}
-          ref={eButton} 
+          src = {TestSel} 
           alt="" />
         <img 
           className="main__member" 
           onClick={()=>{history.push('/jiyeong')}}
-          src = {Test} 
-          onMouseEnter={() => {
-            jButton.current.src = TestSel;
-          }}
-          onMouseLeave={() => {
-            jButton.current.src = Test;
-          }}
-          ref={jButton} 
+          src = {TestSel}  
           alt="" />
         <img 
           className="main__member" 
           onClick={()=>{history.push('/soryeong')}}
-          src = {Test} 
-          onMouseEnter={() => {
-            sButton.current.src = TestSel;
-          }}
-          onMouseLeave={() => {
-            sButton.current.src = Test;
-          }}
-          ref={sButton} 
+          src = {TestSel} 
           alt="" />
       </div>
 
@@ -107,9 +82,12 @@ const MainWrapper = styled.section`
     &__member {
       width: 300px;
       height: 600px;
+      opacity: 50%;
     }
     &__member:hover {
       cursor: pointer;
+      opacity: 100%;
     }
+
   }
 `;
