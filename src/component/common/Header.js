@@ -38,8 +38,8 @@ export default Header;
 const HeaderWrapper = styled.header`
   img {
     width: 120rem;
-    height: 50rem;
-    margin-top: 15rem;
+    height: 33.2rem;
+    margin-top: 5rem;
     cursor: pointer;
   }
 `;
