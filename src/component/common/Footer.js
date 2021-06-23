@@ -26,7 +26,8 @@ const FooterWrapper = styled.footer`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
 
   img {
     cursor: pointer;
