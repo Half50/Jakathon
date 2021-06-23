@@ -10,7 +10,7 @@ export { default as EuijinYoutube } from './EuijinYoutube.gif';
 export { default as EuijinTag } from './EuijinTag.gif';
 export { default as EuijinLogin } from './EuijinLogin.gif';
 export { default as EuijinPT } from './EuijinPT.gif';
-export { default as EuijinYouniverse } from './EuijinYouniverse.gif';
+export { default as EuijinYouniverse } from './EuijinYouniverse.png';
 export { default as EuijinBook } from './EuijinBook.png';
 export { default as EuijinEcon } from './EuijinEcon.jpeg';
 export { default as EuijinSisyphe } from './EuijinSisyphe.jpeg';
