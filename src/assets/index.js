@@ -14,6 +14,7 @@ export { default as EuijinYouniverse } from './EuijinYouniverse.png';
 export { default as EuijinBook } from './EuijinBook.png';
 export { default as EuijinEcon } from './EuijinEcon.jpeg';
 export { default as EuijinSisyphe } from './EuijinSisyphe.jpeg';
+export { default as EuijinSopt } from './EuijinSopt.jpeg';
 export { default as ProfileSoryeong } from './soryeong/Profile.svg';
 export { default as Image01 } from './soryeong/Image01.svg';
 export { default as Image02 } from './soryeong/Image02.svg';
