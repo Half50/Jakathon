@@ -14,7 +14,11 @@ const Container = ({ data, index }) => {
         <div id="title">
           {title.split('\n').map((line) => (
             <span>
-              {line}
+              {line.includes('\\')
+                ? line
+                    .split('\\')
+                    .map((l, i) => (i % 2 === 1 ? <span id="bg">{l}</span> : l))
+                : line}
               <br />
             </span>
           ))}
@@ -55,7 +59,9 @@ const ContainerWrap = styled.div`
     text-align: ${({ index }) => (index % 2 === 0 ? 'right' : 'left')};
     line-height: normal;
     font-size: 2rem;
-
+    #bg {
+      background-color: #f7df1e;
+    }
     #bold {
       font-weight: bold;
     }
