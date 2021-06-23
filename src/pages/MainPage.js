@@ -1,7 +1,8 @@
 import React, {useRef} from 'react';
 import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
-import MainHeader from '../assets/MainHeader.svg'
+import Logo from '../assets/Logo.svg'
+import Notion from '../assets/Notion.svg'
 import TestSel from '../assets/TestSel.svg'
 import Test from '../assets/Test.svg'
 
@@ -13,7 +14,22 @@ const MainPage = () => {
 
   return (
     <MainWrapper>
-      <img className="header" onClick={()=>{history.push('/')}} src={MainHeader} alt="" />
+      <div className="header">
+        <img 
+          className="header__logo" 
+          onClick={()=>{history.push('/')}} 
+          src={Logo} 
+          alt="" />
+        <a  
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.notion.so/JS-d336447fc8ce4f39a6915ced2f83c6d7">
+            <img 
+              className="header__notion" 
+              src={Notion}
+              alt="" />
+        </a>
+      </div>
       <div className="main">
         <img 
           className="main__member" 
@@ -65,11 +81,23 @@ const MainWrapper = styled.section`
   align-items: center;
   justify-content: space-between;
   .header {
-    height: 130px;
-    margin-bottom: 50px;
-  }
-  .header:hover {
-    cursor: pointer;
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    &__logo{
+      width: 366px;
+      height: 100px
+    }
+    &__notion{
+      width: 204px;
+      height: 130px;
+    }
+    &:hover{
+      cursor: pointer;
+    }
   }
   .main {
     width: 1000px;
