@@ -14,3 +14,4 @@ export { default as EuijinYouniverse } from './EuijinYouniverse.png';
 export { default as EuijinBook } from './EuijinBook.png';
 export { default as EuijinEcon } from './EuijinEcon.jpeg';
 export { default as EuijinSisyphe } from './EuijinSisyphe.jpeg';
+export { default as EuijinSopt } from './EuijinSopt.jpeg';
