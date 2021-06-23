@@ -1,6 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ProfileSoryeong } from '../../assets';
+import {
+  ProfileSoryeong,
+  IconGithub,
+  IconInstagram,
+  IconVelog,
+} from '../../assets';
 
 const Profile = () => {
   return (
@@ -18,12 +23,34 @@ const Profile = () => {
           <h3>"자주 실패하는 개발자"</h3>
           <br />
           <h2>
-            사용성있는 서비스를 만들기 위해
+            자주 실패하기 위해 자주 시도하고
             <br />
-            개발을 시작한
-            <br />
-            기획에 진심인 개발자입니다.
+            실패를 해결하면서
+            <br />더 잦은 성공을 경험합니다.
           </h2>
+          <div className="iconfield">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://velog.io/@soryeongk"
+            >
+              <img src={IconVelog} alt="" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://instagram.com/soryeongk"
+            >
+              <img src={IconInstagram} alt="" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/soryeongk"
+            >
+              <img src={IconGithub} alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </ProfileWrap>
@@ -71,6 +98,17 @@ const ProfileWrap = styled.div`
       h2 {
         font-size: 2rem;
       }
+    }
+  }
+
+  .iconfield {
+    width: 11rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    img {
+      width: 3rem;
+      height: 3rem;
     }
   }
 `;
