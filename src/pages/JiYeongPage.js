@@ -47,7 +47,16 @@ const JiYeongPage = () => {
           <div className="content__profile--text">
             <p>소통하는 개발자 현지영</p>
             <p>안녕하세요 <br />SOPT 28기 YB 웹파트 현지영 입니다 <br /> 그동안 크고 작은 프로젝트를 경험하며 <br/> 팀원들과 소통하는 방법을 배웠어요. <br/>구경해보실래요~? </p>  
-            <img className="gitIcon"src={JIyoungGit} alt=""/>
+            <a  
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/shji023">
+              <img 
+                className="gitIcon" 
+                src={JIyoungGit}
+                alt=""
+              />
+            </a>
           </div>
         </div>
         <div>
