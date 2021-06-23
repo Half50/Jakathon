@@ -1,8 +1,6 @@
 # 반오십 스터디원 포트폴리오
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/24906022/123024697-6db5d680-d414-11eb-8733-157a63bbf3b9.png" width=25%>
-</p>
+<img src="https://user-images.githubusercontent.com/24906022/123024697-6db5d680-d414-11eb-8733-157a63bbf3b9.png" width=15%>
 
 <br/>
 
@@ -23,20 +21,14 @@
 
 <br/>
 
-### `기술스택`
+## `기술스택`
 
-<br/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat" height=40>&nbsp;&nbsp;<img src="https://img.shields.io/badge/-CSS3-2573B6?logo=css3&logoColor=white&style=flat" height=40>&nbsp;&nbsp;<img src="https://img.shields.io/badge/-HTML5-ED4133?logo=html5&logoColor=white&style=flat" height=40>&nbsp;&nbsp;<img src="https://img.shields.io/badge/-JavaScript-E5D145?logo=javascript&logoColor=white&style=flat" height=40>
 
 <br/>
 <br/>
 
-### `프로젝트 구조`
-
-<br/>
+## `프로젝트 구조`
 
 ```
 ⎡ 📁 Public
