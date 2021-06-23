@@ -21,6 +21,8 @@ export { default as Image02 } from './soryeong/Image02.svg';
 export { default as Image03 } from './soryeong/Image03.svg';
 export { default as Image04 } from './soryeong/Image04.svg';
 export { default as Image05 } from './soryeong/Image05.svg';
+export { default as Image06 } from './soryeong/Image06.svg';
+export { default as Image07 } from './soryeong/Image07.svg';
 export { default as IconInstagram } from './soryeong/IconInstagram.svg';
 export { default as IconGithub } from './soryeong/IconGithub.svg';
 export { default as IconVelog } from './soryeong/IconVelog.svg';
