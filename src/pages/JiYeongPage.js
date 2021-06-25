@@ -5,7 +5,7 @@ import Memory from '../assets/Memory.svg';
 import Flat from '../assets/Flat.svg';
 import Talko from '../assets/Talko.svg';
 import Library from '../assets/Library.svg';
-import JiyoungGit from '../assets/JiyoungGit.svg';
+import JIyoungGit from '../assets/JIyoungGit.svg';
 import Mimo from '../assets/Mimo.svg';
 import Mimoticon from '../assets/Mimoticon.svg';
 import Container from '../component/jiyoung/Container';
@@ -64,7 +64,7 @@ const JiYeongPage = () => {
                 rel="noopener noreferrer"
                 href="https://github.com/shji023"
               >
-                <img className="gitIcon" src={JiyoungGit} alt="" />
+                <img className="gitIcon" src={JIyoungGit} alt="" />
               </a>
             </p>
           </div>
